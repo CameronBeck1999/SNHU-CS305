@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.snhu.sslserver.SslServerApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.266 s <<< FAILURE! - in com.snhu.sslserver.SslServerApplicationTests
+com.snhu.sslserver.SslServerApplicationTests  Time elapsed: 0.264 s  <<< ERROR!
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [C:\Users\camer\OneDrive\Documents\SNHU\Term3\CS305 - Software Security\Module7\ssl-server_student\target\test-classes\com\snhu\sslserver\SslServerApplicationTests.class]; nested exception is org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [C:\Users\camer\OneDrive\Documents\SNHU\Term3\CS305 - Software Security\Module7\ssl-server_student\target\test-classes\com\snhu\sslserver\SslServerApplicationTests.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 68
+Caused by: org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [C:\Users\camer\OneDrive\Documents\SNHU\Term3\CS305 - Software Security\Module7\ssl-server_student\target\test-classes\com\snhu\sslserver\SslServerApplicationTests.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 68
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 68
+
